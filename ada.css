@@ -1,0 +1,522 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.project0 {
+    font-size: 2.7em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+/* --------------------------------------------------------- */
+
+
+/* Inicio header  */
+
+.Container {
+max-width: 1400px;
+margin: auto;
+
+}
+
+header{
+    background-color: white;
+
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(52, 102, 102);
+    font-size: 1.45em;
+}
+
+header .Container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover {
+   color: rgb(52, 102, 102);;
+}
+
+
+/* Inicio section 1  */
+
+#Hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: url(Imagenes/wallpaperbetter.com_2560x1440.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+
+}
+
+
+/* Inicio section 2  */
+
+#Conocimientos{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 100px;
+   padding-top: 5px;
+}
+
+.titulo-conocimientos{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.titulo-conocimientos:hover{
+    color: rgb(44, 159, 180);
+    transition: ease-in .1s;
+}
+
+.parrafo-conocimientos{
+    font-family: verdana;
+    font-size: 15px;
+}
+.contenedor-botones{
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.boton-html{
+    width: 190px;
+    height: 190px;
+    margin: 50px 50px 50px 50px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+.boton-html:hover{
+    background-color: rgb(209, 241, 243); 
+    color: orange;
+    margin: 100px;
+    transition: ease-in .2s;
+}
+
+
+.boton-css{
+    width: 190px;
+    height: 190px;
+    margin: 50px 50px 50px 50px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+
+.boton-css:hover{
+    background-color: rgb(209, 241, 243); 
+    color: dodgerblue;
+    margin: 100px;
+    transition: ease-in .2s;
+    border-radius: 15px;
+}
+
+
+.boton-github{
+
+    width: 190px;
+    height: 190px;
+    margin: 50px 50px 50px 50px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+.boton-github:hover{
+    background-color: rgb(209, 241, 243); 
+    color: rgb(117, 128, 140);
+    margin: 100px;
+    transition: ease-in .2s;
+}
+
+.html{
+    color: orange;
+    font-size: 100px;
+}
+
+.css{
+    color: dodgerblue;
+    font-size: 100px;
+}
+
+.github{
+    color: rgb(8, 13, 18);
+    font-size: 100px;
+}
+
+
+/* Inicio section 3 */
+
+.Frase-yo {
+    background-color: rgb(137, 224, 231); 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    padding-right: 10px;
+}
+
+
+/* Inicio section 4 */
+
+.wap{
+    width: 90%;
+    margin: auto;
+   
+}
+
+.bienvenidos {
+    margin-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.bienvenidos:hover{
+    color: rgb(83, 152, 177);
+    
+}
+
+.contenedor-columnas{
+width: 100%;
+margin: auto; 
+display: flex;
+justify-content: center;
+flex-direction: row; 
+padding-left: 5%;
+padding-bottom: 5%;
+
+}
+.columnasx3 {
+    width: 33.33%;
+    
+}
+
+h3:hover{
+    color: rgb(115, 185, 210);
+}
+
+
+/* Inicio section 5*/
+
+h4 {
+    font-size: 50px;
+    display: flex;
+    padding-top: 25px;
+    margin-top: auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+h4:hover{
+    color: rgb(44, 159, 180);
+    transition: ease-in .1s;
+}
+
+ .Formulario {
+    box-sizing: border-box;
+    width: 400px;
+    background-color: rgb(137, 224, 231);
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px black;
+    font-family: 'Calibri'
+}
+
+
+
+ .controls {
+    width: 100%;
+    background-color: rgb(183, 237, 232); 
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(8, 167, 195); 
+    font-size: 17px;
+ }
+
+ .container-contacto {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-bottom: 50px;
+
+
+ }
+
+ .ContactMe {
+    background-color: rgb(209, 241, 243);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+ }
+
+
+
+/* Inicio footer*/
+
+
+footer {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(137, 224, 231);
+    
+}
+
+.final-items {
+    text-align: justify;
+    justify-content: space-between;
+    display:inline-block;
+    padding-bottom: 10px;
+    
+}
+
+li {
+    font-size: small;
+   
+}
+
+.footer-fin {
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+                                           /*RESPONSIVE*/
+
+@media (max-width: 1100px) {
+    .wap {
+       width: 50%;
+       margin-left: 150px;
+       
+       
+    } 
+
+    .columnasx3 {
+        display: flex ;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .Nav{
+        margin-right: 200px;
+        
+    }
+    
+    #Conocimientos {
+        margin-right: 200px;
+        padding-bottom: 15px;
+    }
+
+    .Frase {
+        margin-left: 100px;
+    }
+
+    .Gift-programar {
+        margin-right: 100px;
+    }
+
+    .ContactMe {
+        margin-right: 150px;
+    }
+
+    .Hello {
+        margin: auto;
+
+    }
+
+    h1 {
+        margin-right: 150px;
+    }
+
+    .Description {
+        margin-right: 150px;
+        font-size: x-large;
+    }
+
+    footer {
+        margin-right: 180px;
+    }
+}
+
+
+@media (max-width: 900px) {    
+    
+ 
+    #Conocimientos {
+        margin-left: 100px;
+        padding-bottom: 5px;
+        
+    }
+
+    .titulo-conocimientos{
+       text-align: center;
+        font-size: 10px;
+       
+    }
+
+    .parrafo-conocimientos {
+        font-size: 12px;
+    }
+
+    .contenedor-botones {
+        margin-right: 50px;
+        padding-top: 5px;
+        
+    }
+    .html{
+        
+        font-size: 70px;
+    }
+    
+    .css{
+        
+        font-size: 70px;
+    }
+    
+    .github{
+        font-size: 70px;
+    }
+
+    .boton-html{
+        width: 120px;
+        height: 150px;
+       
+    }
+    
+   
+    .boton-css{
+        width: 120px;
+        height: 150px;
+       
+    }
+    
+    
+    .boton-github{
+    
+        width: 120px;
+        height: 150px;
+       
+    }
+    
+    .Frase {
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    .Gift-programar {
+        height: 300px;
+    }
+
+    .wap {
+        width: 30%;
+        margin-left: 150px;
+        
+        
+     } 
+
+     .titulo-proyecto {
+        margin-left: 50px;
+        width: 120%;
+     }
+
+    h3 {
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .contenedor-columnas{
+        margin-left: 70px; 
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .columnasx3 {
+            width: 120%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+        }
+ 
+        footer {
+            margin-right: 120px;
+        }
+
+    }
+
+
+    @media (max-width: 780px) {
+            .ContactMe {
+                margin-right: 120px;
+            }
+
+            footer {
+                padding-right: 10px;
+            }
+    }
+
